@@ -15,7 +15,7 @@ public class BoardingHouse {
 
         for (int i = 1; i <= n; i++) {
             sc.nextLine();
-            System.out.printf("Rent #%d: %n", i + 1);
+            System.out.println("Rent #" + i + ":");
             System.out.print("Name: ");
             String name = sc.nextLine();
             System.out.print("Email: ");
